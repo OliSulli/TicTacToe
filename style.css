@@ -43,7 +43,9 @@
       border: 1px solid rgb(51, 255, 0);
       box-shadow: 5px 5px 10px rgb(51, 255, 0);
       border-radius: 80%;
-    
+      margin: auto;
+      margin-left: 25%;
+      transform: translate(-25%);
       background-color: black;
   }
 
