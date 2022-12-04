@@ -35,8 +35,8 @@
   }
     /*utiliser un float pour l'img est la placer sur la droite ou la gauche*/
   .photo img {
-      width: 250px;
-      height: 250px;
+      width:300px;
+      height: 300px;
       border: 1px solid #00eaffe9;
       box-shadow: 5px 5px 10px  #00eaffe9;
       border-radius: 80%;
