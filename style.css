@@ -84,12 +84,12 @@
     font-size: 1rem;
     text-align: center;
     color: rgb(0, 0, 0);
-    text-shadow: 1px 1px 1px #00eaffe9;
+    text-shadow: 1px 1px 1px #000dff;
     border-radius: 10px;
     background-color: #00eaffe9;
     
-    box-shadow: inset 2px 2px 3px #00eaffe9,
-                inset -2px -2px 3px #00eaffe9;
+    box-shadow: inset 2px 2px 3px #000dff,
+                inset -2px -2px 3px #000dff;
 }
 
 .styled:hover {
