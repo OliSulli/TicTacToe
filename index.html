@@ -15,6 +15,11 @@
     
     <div class="photo">
       <img src="Akegichi_2.png" alt="Akegichi" width="50%">
+      <audio id="myaudio" controls preload ="metadata" autoplay loop >
+        <source src="In_the_now.mp3" type="audio/mpeg">
+        Your browser does not support the audio .
+
+      </audio>
       
 </div>
 
@@ -48,19 +53,9 @@
 
     <h2 id="gameStatus">Le joueur 1 commence!</h2>
     <script src="main.js">
-      <div>
-    <object data="In_the_now.mp3" type="audio/mpeg" width="0" height="0" >
-        <param name="src" value="In_the_now.mp3" />
-        <param name="controls" value="console" />
-        <param name="autostart" value="true" />
-        <param name="loop" value="true" />
-        <script type="text/javascript" >
-            <!--
-                document.write('<embed src="In_the_now.mp3" width="0" height="0" controls="console" loop="true" autostart="true" ></embed>');
-            //-->
-        </script>
-    </object>
-</div>
+     
+
+
     </script>
   </body>
 </html>

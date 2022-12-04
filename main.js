@@ -74,5 +74,7 @@ function updateGameStatus(status) {
   endGameStatus.innerHTML = statusText;
 }
 
+
 function endGame() { document.getElementById('gameEnd').style.display = "block" }
 function reloadGame() { window.location.reload() }
+

@@ -7,13 +7,7 @@
   body { font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:#00eaffe9}
     
-    h1 {
-  
-        text-align: center;
-        margin:auto;
-        margin-top: 10px;
-        margin-bottom: 30px;
-       }
+ 
 
        h4 {
     
@@ -47,9 +41,14 @@
       margin-left: 50%;
       transform: translate(-50%);
       background-color: black;
-      padding-bottom: 5px;
+      padding-bottom: 10px;
   }
-
+#myaudio {
+  padding-top: 10px;
+  margin: auto;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
     .cell {
         height: 100px;
         width: 100px;
