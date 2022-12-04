@@ -27,6 +27,9 @@
     
 .gameStatus {
   text-align: center;
+  margin: auto;
+  margin-left: 50%;
+  transform: translate(-50%);
 }
 
   .instruction {
@@ -44,6 +47,7 @@
       margin-left: 50%;
       transform: translate(-50%);
       background-color: black;
+      padding-bottom: 5px;
   }
 
     .cell {
