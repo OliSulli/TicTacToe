@@ -1,4 +1,4 @@
-document.getElementById("myaudio").style.display="none"; audio.play();
+document.getElementById("myaudio").style.display="none";
 const cells = document.querySelectorAll('[data-cell]');
 const gameStatus = document.getElementById('gameStatus');
 const endGameStatus = document.getElementById('endGameStatus');
