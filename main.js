@@ -4,6 +4,10 @@ const gameStatus = document.getElementById('gameStatus');
 const endGameStatus = document.getElementById('endGameStatus');
 const playerOne = 'X'; const playerTwo = 'O';
 
+let audio =
+document.getElementById("myaudio");
+audio.play();
+
 let playerTurn = playerOne;
 
 const winningPatterns = [
