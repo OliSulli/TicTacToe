@@ -48,6 +48,7 @@
   margin: auto;
   margin-left: 50%;
   transform: translate(-50%);
+  display: none;
 }
     .cell {
         height: 100px;
@@ -58,7 +59,7 @@
         font-size: 80px;
     
         border-right: 5px solid  #e100ff;
-        border-bottom: 5px solid  #e100ff;
+        border-bottom: 5px solid  #8c00ff;
         cursor: pointer;
     }
   

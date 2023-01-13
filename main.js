@@ -2,6 +2,7 @@ const cells = document.querySelectorAll('[data-cell]');
 const gameStatus = document.getElementById('gameStatus');
 const endGameStatus = document.getElementById('endGameStatus');
 const playerOne = 'X'; const playerTwo = 'O';
+document.getElementById("myaudio").style.display="none";
 
 let playerTurn = playerOne;
 
@@ -77,4 +78,3 @@ function updateGameStatus(status) {
 
 function endGame() { document.getElementById('gameEnd').style.display = "block" }
 function reloadGame() { window.location.reload() }
-
